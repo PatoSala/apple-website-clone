@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -31,10 +32,10 @@
     </header>
 
     <main>
-        <section id="first">
+        <section class="section-wide" id="first-section">
             <div class="headlines-container">
-                <h2>iPhone 12</h2>
-                <h3>Blast past fast.</h3>
+                <h2 class="section-wide-heading">iPhone 12</h2>
+                <h3 class="section-wide-subheading">Blast past fast.</h3>
                 <div class="buttons-container">
                     <a href="" class="button-primary">Learn more</a>
                     <a href="" class="button-secondary">Buy</a>
@@ -43,16 +44,88 @@
             <img src="./assets/iphone12s.jpg">
         </section>
 
-        <section id="second">
+        <section class="section-wide" id="second-section">
             <div class="headlines-container">
-                <h2>iPhone 12 Pro</h2>
-                <h3>It's a leap year.</h3>
+                <h2 class="section-wide-heading">iPhone 12 Pro</h2>
+                <h3 class="section-wide-subheading">It's a leap year.</h3>
                 <div class="buttons-container">
                     <a href="" class="button-primary">Learn more</a>
                     <a href="" class="button-secondary">Buy</a>
                 </div>
             </div>
             <img src="./assets/iphone12pro.jpg">
+        </section>
+
+        <section class="section-grid">
+            <div class="grid-item light">
+                <div class="grid-headlines-container">
+                    <span style="display: flex; align-items: center; justify-content: center;">
+                        <img src="./assets/apple-logo-gray.png" width="35px" height="35px">
+
+                        <h2 class="section-grid-heading">
+                            Watch
+                        </h2>
+                    </span>
+                    <h3 class="section-grid-subheading">To wear it is to love it.</h3>
+                    <div class="buttons-container">
+                        <a href="" class="button-primary">Learn more</a>
+                        <a href="" class="button-secondary">Buy</a>
+                    </div>
+                </div>
+                <img src="./assets/watch.jpg" width="60%">
+            </div>
+
+            <div class="grid-item dark" style="background-image: url(./assets/college-students.jpg); background-position: center center;">
+                <div></div>
+                <div class="grid-headlines-container" style="margin-bottom: 50px;">
+                    <span style="display: flex; align-items: center; justify-content: center;">
+                        <h2 class="section-grid-heading">
+                            College Students
+                        </h2>
+                    </span>
+                    <h3 class="section-grid-subheading">Mac and iPad. Go further.</h3>
+                    <div class="buttons-container">
+                        <a href="" class="button-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item dark">
+                <div class="grid-headlines-container">
+                    <span style="display: flex; align-items: center; justify-content: center;">
+                        <img src="./assets/apple-logo-white.png" width="35px" height="35px">
+
+                        <h2 class="section-grid-heading">
+                            Airpods Pro
+                        </h2>
+                    </span>
+                    <h3 class="section-grid-subheading">Magic like you've never heard.</h3>
+                    <div class="buttons-container">
+                        <a href="" class="button-primary">Learn more</a>
+                        <a href="" class="button-secondary">Buy</a>
+                    </div>
+                </div>
+                <img src="./assets/airpods.png" width="70%">
+            </div>
+
+            <div class="grid-item light">
+                <div class="grid-headlines-container">
+                    <span style="display: flex; align-items: center; justify-content: center;">
+                        <img src="./assets/apple-logo-gray.png" width="35px" height="35px">
+
+                        <h2 class="section-grid-heading">
+                            Mac
+                        </h2>
+                    </span>
+                    <h3 class="section-grid-subheading">If you can dream it, Mac can do it.</h3>
+                    <div class="buttons-container">
+                        <a href="" class="button-primary">Learn more</a>
+                        <a href="" class="button-secondary">Buy</a>
+                    </div>
+                </div>
+
+                <img src="./assets/mac.png" width="90%">
+            </div>
         </section>
     </main>
 

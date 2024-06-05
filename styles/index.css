@@ -26,12 +26,12 @@ nav {
     gap: 80px
 }
 
-h2 {
+.section-wide-heading {
     font-size: 50px;
     margin-top: 60px;
 }
 
-h3 {
+.section-wide-subheading {
     font-size: 26px;
     font-weight: 500;
 }
@@ -64,23 +64,72 @@ h3 {
     color: #fff;
 }
 
-section {
+.section-wide {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin-bottom: 12px;
 }
 
-#first {
+.section-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.grid-item {
+    width: calc(50% - 12px);
+    height: 580px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    background-color: black;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.section-grid-heading {
+    margin: 0;
+    font-size: 35px;
+}
+
+.section-grid-subheading {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.light {
+    background-color: #fafafa;
+    color: #1d1d1f;
+}
+
+.dark {
+    background-color: #000000;
+    color: #fafafa;
+}
+
+#first-section {
     background-color: #fbfbfd;
 }
 
-#second {
+#second-section {
     background-color: #000000;
     color: #fff;
 }
 
 .headlines-container {
+    text-align: center;
+}
+
+.grid-headlines-container {
     text-align: center;
 }
